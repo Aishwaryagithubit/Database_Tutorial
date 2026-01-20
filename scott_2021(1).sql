@@ -1,4 +1,4 @@
--- updated script 2021
+-- Tables 
 
 DROP TABLE DEPT CASCADE CONSTRAINTS ; 
 DROP TABLE EMP CASCADE CONSTRAINTS ; 
@@ -92,4 +92,5 @@ end;
 commit;
 
 /
+
 
