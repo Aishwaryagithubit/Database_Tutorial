@@ -75,13 +75,12 @@ Table creation scripts
 
 Constraints and relationships
 
-/diagrams
-
 Logical database structure (where applicable)
 
 /notes
 
 Key explanations and references
+
 
 README.md
 
