@@ -13,7 +13,8 @@ SELECT
     COUNT(*) AS employee_count
 FROM emp
 GROUP BY job;
-
+/
+    
 --Average Salary by Department
 SELECT 
     d.dname AS department_name,
@@ -23,7 +24,7 @@ JOIN dept d
 ON e.deptno = d.deptno
 GROUP BY d.dname
 ORDER BY avg_salary DESC;
-
+/
 --Hiring Over Time
 SELECT 
     TO_CHAR(hiredate, 'YYYY') AS hire_year,
@@ -31,3 +32,4 @@ SELECT
 FROM emp
 GROUP BY TO_CHAR(hiredate, 'YYYY')
 ORDER BY hire_year;
+
